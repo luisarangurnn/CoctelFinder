@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style3.css">
+    <title>Buscador de Cócteles</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Buscar Cócteles</h1>
+        <form onsubmit="event.preventDefault(); buscarCoctelPorNombre();">
+            <div class="form-group">
+                <label for="nombreCoctel">Ingresa el nombre del cóctel:</label>
+                <input type="text" id="nombreCoctel" name="nombreCoctel">
+            </div>
+            <button type="submit">Buscar</button>
+        </form>
+        <p id="resultado"></p>
+    </div>
+    <script src="script3.js"></script>
+</body>
+</html>
